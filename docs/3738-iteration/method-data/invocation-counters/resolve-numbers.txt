@@ -1,0 +1,2 @@
+pointer to unsigned InvocationCounter @ 0x00007f678c400888 (size = 4)
+unsigned int InvocationCounter::_counter: 6962

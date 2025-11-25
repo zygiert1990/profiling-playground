@@ -1,7 +1,0 @@
-Type is MethodCounters (size of 64)
-int MethodCounters::_invoke_mask: 254
-int MethodCounters::_backedge_mask: 2046
-u2 MethodCounters::_interpreter_throwout_count: 0
-u2 MethodCounters::_number_of_breakpoints: 0
-InvocationCounter MethodCounters::_invocation_counter: 2
-InvocationCounter MethodCounters::_backedge_counter: 178

@@ -1,0 +1,17 @@
+Type is MethodData (size of 216)
+int MethodData::_size: 280
+Method* MethodData::_method: Method @ 0x00007f678c4005b0
+int MethodData::_data_size: 32
+intptr_t MethodData::_data[0]: 262151
+int MethodData::_parameters_type_data_di: -2
+uint MethodData::_compiler_counters._nof_decompiles: 0
+uint MethodData::_compiler_counters._nof_overflow_recompiles: 0
+uint MethodData::_compiler_counters._nof_overflow_traps: 0
+u1 MethodData::_compiler_counters._trap_hist._array[0]: 0
+intx MethodData::_eflags: 0
+intx MethodData::_arg_local: 0
+intx MethodData::_arg_stack: 0
+intx MethodData::_arg_returned: 0
+uint MethodData::_tenure_traps: 0
+int MethodData::_invoke_mask: 254
+int MethodData::_backedge_mask: 2046

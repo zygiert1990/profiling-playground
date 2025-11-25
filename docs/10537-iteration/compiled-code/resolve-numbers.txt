@@ -1,0 +1,88 @@
+Disassembly for compiled method [private static int resolveNumber(int) @0x00007f678c4005b0 ] @0x00007f67ac427888
+
+Method
+private static int resolveNumber(int) @0x00007f678c4005b0 of public class org.zygiert.Main @0x000000004b040000
+Compiled Code
+[Entry Point]
+[Verified Entry Point]
+0x00007f67ac427980:    mov    %eax,-0x14000(%rsp)
+0x00007f67ac427987:    push   %rbp
+0x00007f67ac427988:    sub    $0x20,%rsp
+0x00007f67ac42798c:    cmpl   $0x1,0x20(%r15)
+0x00007f67ac427994:    je     0x00007f67ac42799b
+0x00007f67ac427996:    call   0x00007f67b396df60
+0x00007f67ac42799b:    movabs $0x7f678c4007f8,%rax
+0x00007f67ac4279a5:    mov    0x90(%rax),%edi
+0x00007f67ac4279ab:    add    $0x2,%edi
+0x00007f67ac4279ae:    mov    %edi,0x90(%rax)
+0x00007f67ac4279b4:    and    $0x7fe,%edi
+0x00007f67ac4279ba:    test   %edi,%edi
+0x00007f67ac4279bc:    je     0x00007f67ac427a18
+0x00007f67ac4279c2:    cmp    $0x2710,%esi
+0x00007f67ac4279c8:    movabs $0x7f678c4007f8,%rax
+0x00007f67ac4279d2:    mov    $0xd8,%edi
+0x00007f67ac4279d7:    jge    0x00007f67ac4279de
+0x00007f67ac4279d9:    mov    $0xe8,%edi
+0x00007f67ac4279de:    mov    (%rax,%rdi,1),%rbx
+0x00007f67ac4279e2:    lea    0x1(%rbx),%rbx
+0x00007f67ac4279e6:    mov    %rbx,(%rax,%rdi,1)
+0x00007f67ac4279ea:    jge    0x00007f67ac427a03
+0x00007f67ac4279f0:    mov    %rsi,%rax
+0x00007f67ac4279f3:    add    $0x20,%rsp
+0x00007f67ac4279f7:    pop    %rbp
+0x00007f67ac4279f8:    cmp    0x28(%r15),%rsp
+0x00007f67ac4279fc:    ja     0x00007f67ac427a36
+0x00007f67ac427a02:    ret
+0x00007f67ac427a03:    shl    %esi
+0x00007f67ac427a05:    mov    %rsi,%rax
+0x00007f67ac427a08:    add    $0x20,%rsp
+0x00007f67ac427a0c:    pop    %rbp
+0x00007f67ac427a0d:    cmp    0x28(%r15),%rsp
+0x00007f67ac427a11:    ja     0x00007f67ac427a4c
+0x00007f67ac427a17:    ret
+0x00007f67ac427a18:    movabs $0x7f678c4005b0,%r10
+0x00007f67ac427a22:    mov    %r10,0x8(%rsp)
+0x00007f67ac427a27:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f67ac427a2f:    call   0x00007f67b3a59e60
+            private static int resolveNumber(int) @0x00007f678c4005b0 of public class org.zygiert.Main @0x000000004b040000 @ bci = -1, line = 18
+            locals ([0], rsi, int)
+
+OopMap:
+
+
+0x00007f67ac427a34:    jmp    0x00007f67ac4279c2
+0x00007f67ac427a36:    movabs $0x7f67ac4279f8,%r10
+0x00007f67ac427a40:    mov    %r10,0x538(%r15)
+0x00007f67ac427a47:    jmp    0x00007f67b3988860
+0x00007f67ac427a4c:    movabs $0x7f67ac427a0d,%r10
+0x00007f67ac427a56:    mov    %r10,0x538(%r15)
+0x00007f67ac427a5d:    jmp    0x00007f67b3988860
+0x00007f67ac427a62:    mov    0x5e0(%r15),%rax
+0x00007f67ac427a69:    movq   $0x0,0x5e0(%r15)
+0x00007f67ac427a74:    movq   $0x0,0x5e8(%r15)
+0x00007f67ac427a7f:    add    $0x20,%rsp
+0x00007f67ac427a83:    pop    %rbp
+0x00007f67ac427a84:    jmp    0x00007f67b39c69e0
+0x00007f67ac427a89:    hlt
+0x00007f67ac427a8a:    hlt
+0x00007f67ac427a8b:    hlt
+0x00007f67ac427a8c:    hlt
+0x00007f67ac427a8d:    hlt
+0x00007f67ac427a8e:    hlt
+0x00007f67ac427a8f:    hlt
+[Exception Handler]
+[Stub Code]
+0x00007f67ac427a90:    call   0x00007f67b3a56a60
+0x00007f67ac427a95:    movabs $0x7f67caeec728,%rdi
+0x00007f67ac427a9f:    and    $0xfffffffffffffff0,%rsp
+0x00007f67ac427aa3:    call   0x00007f67ca948e40
+0x00007f67ac427aa8:    hlt
+0x00007f67ac427aa9:    movabs $0x7f67ac427aa9,%r10
+0x00007f67ac427ab3:    push   %r10
+0x00007f67ac427ab5:    jmp    0x00007f67b3988b60
+0x00007f67ac427aba:    hlt
+0x00007f67ac427abb:    hlt
+0x00007f67ac427abc:    hlt
+0x00007f67ac427abd:    hlt
+0x00007f67ac427abe:    hlt
+0x00007f67ac427abf:    hlt
