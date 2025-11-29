@@ -1,0 +1,36 @@
+Disassembly for compiled method [private static int resolveNumber(int) @0x00007f307c400698 ] @0x00007f30a3eda208
+
+Method
+private static int resolveNumber(int) @0x00007f307c400698 of public class org.zygiert.Main @0x0000000029040000
+Compiled Code
+[Entry Point]
+[Verified Entry Point]
+0x00007f30a3eda300:    sub    $0x18,%rsp
+0x00007f30a3eda307:    mov    %rbp,0x10(%rsp)
+0x00007f30a3eda30c:    cmpl   $0x1,0x20(%r15)
+0x00007f30a3eda314:    jne    0x00007f30a3eda34c
+0x00007f30a3eda31a:    lea    (%rsi,%rsi,1),%eax
+0x00007f30a3eda31d:    cmp    $0x2710,%esi
+0x00007f30a3eda323:    cmovl  %esi,%eax
+0x00007f30a3eda326:    add    $0x10,%rsp
+0x00007f30a3eda32a:    pop    %rbp
+0x00007f30a3eda32b:    cmp    0x28(%r15),%rsp
+0x00007f30a3eda32f:    ja     0x00007f30a3eda336
+0x00007f30a3eda335:    ret
+0x00007f30a3eda336:    movabs $0x7f30a3eda32b,%r10
+0x00007f30a3eda340:    mov    %r10,0x538(%r15)
+0x00007f30a3eda347:    jmp    0x00007f30a3988860
+0x00007f30a3eda34c:    call   0x00007f30a396df60
+0x00007f30a3eda351:    jmp    0x00007f30a3eda31a
+0x00007f30a3eda356:    hlt
+0x00007f30a3eda357:    hlt
+[Exception Handler]
+[Stub Code]
+0x00007f30a3eda358:    jmp    0x00007f30a3a5fce0
+0x00007f30a3eda35d:    call   0x00007f30a3eda362
+0x00007f30a3eda362:    subq   $0x5,(%rsp)
+0x00007f30a3eda367:    jmp    0x00007f30a3988b60
+0x00007f30a3eda36c:    hlt
+0x00007f30a3eda36d:    hlt
+0x00007f30a3eda36e:    hlt
+0x00007f30a3eda36f:    hlt

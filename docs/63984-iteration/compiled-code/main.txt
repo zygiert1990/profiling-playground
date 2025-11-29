@@ -1,0 +1,1636 @@
+Disassembly for compiled method [static void main(java.lang.String[]) @0x00007f307c4005c0 ] @0x00007f309c429908
+
+Method
+static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000
+Compiled Code
+[Entry Point]
+[Verified Entry Point]
+0x00007f309c429a00:    mov    %eax,-0x14000(%rsp)
+0x00007f309c429a07:    push   %rbp
+0x00007f309c429a08:    sub    $0x150,%rsp
+0x00007f309c429a0f:    nop
+0x00007f309c429a10:    cmpl   $0x0,0x20(%r15)
+0x00007f309c429a18:    je     0x00007f309c429a1f
+0x00007f309c429a1a:    call   0x00007f30a396df60
+0x00007f309c429a1f:    movabs $0x7f307c401a40,%rdx
+0x00007f309c429a29:    mov    0x90(%rdx),%edi
+0x00007f309c429a2f:    add    $0x2,%edi
+0x00007f309c429a32:    mov    %edi,0x90(%rdx)
+0x00007f309c429a38:    and    $0x7fe,%edi
+0x00007f309c429a3e:    test   %edi,%edi
+0x00007f309c429a40:    je     0x00007f309c42a9f9
+0x00007f309c429a46:    cmpl   $0x0,0xc(%rsi)
+0x00007f309c429a4a:    jbe    0x00007f309c42aa24
+0x00007f309c429a50:    mov    0x10(%rsi),%edx
+0x00007f309c429a53:    movabs $0x7f307c401a40,%rdi
+0x00007f309c429a5d:    addq   $0x1,0xd8(%rdi)
+0x00007f309c429a65:    movabs $0x7f307c04d0f0,%rdi
+0x00007f309c429a6f:    mov    0x90(%rdi),%ebx
+0x00007f309c429a75:    add    $0x2,%ebx
+0x00007f309c429a78:    mov    %ebx,0x90(%rdi)
+0x00007f309c429a7e:    and    $0x1ffffe,%ebx
+0x00007f309c429a84:    test   %ebx,%ebx
+0x00007f309c429a86:    je     0x00007f309c42aa36
+0x00007f309c429a8c:    movabs $0x7f307c04d0f0,%rdi
+0x00007f309c429a96:    addq   $0x1,0xd8(%rdi)
+0x00007f309c429a9e:    mov    %rsi,0x108(%rsp)
+0x00007f309c429aa6:    mov    %rdx,%rsi
+0x00007f309c429aa9:    mov    $0xa,%edx
+0x00007f309c429aae:    nop
+0x00007f309c429aaf:    call   0x00007f30a3986ce0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 3, line = 6
+            locals ('args', stack[264], oop) ([1], illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+                public static int parseInt(java.lang.String) @0x000000002819f780 of public final class java.lang.Integer [signature Ljava/lang/Number;Ljava/lang/Comparable<Ljava/lang/Integer;>;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x000000002819e220 @ bci = 3, line = 662
+                locals ('s', illegal)
+
+OopMap:
+Oops:[264]
+
+
+0x00007f309c429ab4:    nopl   0x1ac(%rax,%rax,1)
+0x00007f309c429abc:    mov    0x108(%rsp),%rsi
+0x00007f309c429ac4:    cmpl   $0x1,0xc(%rsi)
+0x00007f309c429ac8:    jbe    0x00007f309c42aa57
+0x00007f309c429ace:    mov    0x14(%rsi),%esi
+0x00007f309c429ad1:    movabs $0x7f307c401a40,%rdx
+0x00007f309c429adb:    addq   $0x1,0xe8(%rdx)
+0x00007f309c429ae3:    movabs $0x7f307c04d0f0,%rdx
+0x00007f309c429aed:    mov    0x90(%rdx),%edi
+0x00007f309c429af3:    add    $0x2,%edi
+0x00007f309c429af6:    mov    %edi,0x90(%rdx)
+0x00007f309c429afc:    and    $0x1ffffe,%edi
+0x00007f309c429b02:    test   %edi,%edi
+0x00007f309c429b04:    je     0x00007f309c42aa69
+0x00007f309c429b0a:    movabs $0x7f307c04d0f0,%rdx
+0x00007f309c429b14:    addq   $0x1,0xd8(%rdx)
+0x00007f309c429b1c:    mov    $0xa,%edx
+0x00007f309c429b21:    mov    %eax,0x110(%rsp)
+0x00007f309c429b28:    nopl   0x0(%rax)
+0x00007f309c429b2f:    call   0x00007f30a3986ce0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 10, line = 7
+            locals ('args', illegal) ('nrOfIterations', stack[272], normal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+                public static int parseInt(java.lang.String) @0x000000002819f780 of public final class java.lang.Integer [signature Ljava/lang/Number;Ljava/lang/Comparable<Ljava/lang/Integer;>;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x000000002819e220 @ bci = 3, line = 662
+                locals ('s', illegal)
+
+OopMap:
+
+
+0x00007f309c429b34:    nopl   0x100022c(%rax,%rax,1)
+0x00007f309c429b3c:    mov    %rax,%rbx
+0x00007f309c429b3f:    movabs $0x29040210,%rdx
+0x00007f309c429b49:    mov    0x1c8(%r15),%rax
+0x00007f309c429b50:    lea    0x18(%rax),%rdi
+0x00007f309c429b54:    cmp    0x1d8(%r15),%rdi
+0x00007f309c429b5b:    ja     0x00007f309c42aa8a
+0x00007f309c429b61:    mov    %rdi,0x1c8(%r15)
+0x00007f309c429b68:    movq   $0x1,(%rax)
+0x00007f309c429b6f:    mov    %rdx,%rcx
+0x00007f309c429b72:    mov    $0x28000000,%r10d
+0x00007f309c429b78:    sub    %r10,%rcx
+0x00007f309c429b7b:    mov    %ecx,0x8(%rax)
+0x00007f309c429b7e:    xor    %rcx,%rcx
+0x00007f309c429b81:    mov    %ecx,0xc(%rax)
+0x00007f309c429b84:    xor    %rcx,%rcx
+0x00007f309c429b87:    mov    %rcx,0x10(%rax)
+0x00007f309c429b8b:    mov    %rax,0x118(%rsp)
+0x00007f309c429b93:    mov    %rax,%rsi
+0x00007f309c429b96:    movabs $0x7f307c401a40,%rdi
+0x00007f309c429ba0:    addq   $0x1,0xf8(%rdi)
+0x00007f309c429ba8:    movabs $0x7f307c401cb0,%rsi
+0x00007f309c429bb2:    mov    0x90(%rsi),%edi
+0x00007f309c429bb8:    add    $0x2,%edi
+0x00007f309c429bbb:    mov    %edi,0x90(%rsi)
+0x00007f309c429bc1:    and    $0x1ffffe,%edi
+0x00007f309c429bc7:    test   %edi,%edi
+0x00007f309c429bc9:    je     0x00007f309c42aa97
+0x00007f309c429bcf:    mov    %rax,%rsi
+0x00007f309c429bd2:    movabs $0x7f307c401cb0,%rdi
+0x00007f309c429bdc:    addq   $0x1,0xd8(%rdi)
+0x00007f309c429be4:    movabs $0x7f307c013a70,%rsi
+0x00007f309c429bee:    mov    0x90(%rsi),%edi
+0x00007f309c429bf4:    add    $0x2,%edi
+0x00007f309c429bf7:    mov    %edi,0x90(%rsi)
+0x00007f309c429bfd:    and    $0x1ffffe,%edi
+0x00007f309c429c03:    test   %edi,%edi
+0x00007f309c429c05:    je     0x00007f309c42aab8
+0x00007f309c429c0b:    mov    0x110(%rsp),%esi
+0x00007f309c429c12:    mov    %esi,0xc(%rax)
+0x00007f309c429c15:    mov    %ebx,0x10(%rax)
+0x00007f309c429c18:    mov    $0x1,%edi
+0x00007f309c429c1d:    mov    $0x0,%ebx
+0x00007f309c429c22:    mov    %ebx,0x120(%rsp)
+0x00007f309c429c29:    nopl   0x0(%rax)
+0x00007f309c429c30:    mov    %rax,%rsi
+0x00007f309c429c33:    movabs $0x7f307c401a40,%rdx
+0x00007f309c429c3d:    addq   $0x1,0x108(%rdx)
+0x00007f309c429c45:    mov    0xc(%rax),%esi
+0x00007f309c429c48:    cmp    %esi,%edi
+0x00007f309c429c4a:    movabs $0x7f307c401a40,%rsi
+0x00007f309c429c54:    mov    $0x138,%edx
+0x00007f309c429c59:    jg     0x00007f309c429c60
+0x00007f309c429c5b:    mov    $0x148,%edx
+0x00007f309c429c60:    mov    (%rsi,%rdx,1),%rcx
+0x00007f309c429c64:    lea    0x1(%rcx),%rcx
+0x00007f309c429c68:    mov    %rcx,(%rsi,%rdx,1)
+0x00007f309c429c6c:    jg     0x00007f309c42a7f5
+0x00007f309c429c72:    movabs $0x7f307c401a40,%rsi
+0x00007f309c429c7c:    addq   $0x1,0x158(%rsi)
+0x00007f309c429c84:    movabs $0x7f307c03e890,%rsi
+0x00007f309c429c8e:    mov    0x90(%rsi),%edx
+0x00007f309c429c94:    add    $0x2,%edx
+0x00007f309c429c97:    mov    %edx,0x90(%rsi)
+0x00007f309c429c9d:    and    $0x1ffffe,%edx
+0x00007f309c429ca3:    test   %edx,%edx
+0x00007f309c429ca5:    je     0x00007f309c42aad9
+0x00007f309c429cab:    movabs $0x7f307c03e890,%rsi
+0x00007f309c429cb5:    addq   $0x1,0x108(%rsi)
+0x00007f309c429cbd:    movabs $0x7f307c4014f8,%rsi
+0x00007f309c429cc7:    mov    0x90(%rsi),%edx
+0x00007f309c429ccd:    add    $0x2,%edx
+0x00007f309c429cd0:    mov    %edx,0x90(%rsi)
+0x00007f309c429cd6:    and    $0x1ffffe,%edx
+0x00007f309c429cdc:    test   %edx,%edx
+0x00007f309c429cde:    je     0x00007f309c42aafa
+0x00007f309c429ce4:    movabs $0x7f307c4014f8,%rsi
+0x00007f309c429cee:    addq   $0x1,0x138(%rsi)
+0x00007f309c429cf6:    movabs $0x7f307c03ea40,%rsi
+0x00007f309c429d00:    mov    0x90(%rsi),%edx
+0x00007f309c429d06:    add    $0x2,%edx
+0x00007f309c429d09:    mov    %edx,0x90(%rsi)
+0x00007f309c429d0f:    and    $0x1ffffe,%edx
+0x00007f309c429d15:    test   %edx,%edx
+0x00007f309c429d17:    je     0x00007f309c42ab1b
+0x00007f309c429d1d:    movabs $0x7f307c03ea40,%rsi
+0x00007f309c429d27:    addq   $0x1,0xd8(%rsi)
+0x00007f309c429d2f:    movabs $0x7f307c03e748,%rsi
+0x00007f309c429d39:    mov    0x90(%rsi),%edx
+0x00007f309c429d3f:    add    $0x2,%edx
+0x00007f309c429d42:    mov    %edx,0x90(%rsi)
+0x00007f309c429d48:    and    $0x1ffffe,%edx
+0x00007f309c429d4e:    test   %edx,%edx
+0x00007f309c429d50:    je     0x00007f309c42ab3c
+0x00007f309c429d56:    movabs $0xc67326a8,%rsi
+0x00007f309c429d60:    movabs $0x7f307c03ea40,%rdx
+0x00007f309c429d6a:    addq   $0x1,0x138(%rdx)
+0x00007f309c429d72:    movabs $0x7f307c03ec38,%rsi
+0x00007f309c429d7c:    mov    0x90(%rsi),%edx
+0x00007f309c429d82:    add    $0x2,%edx
+0x00007f309c429d85:    mov    %edx,0x90(%rsi)
+0x00007f309c429d8b:    and    $0x1ffffe,%edx
+0x00007f309c429d91:    test   %edx,%edx
+0x00007f309c429d93:    je     0x00007f309c42ab5d
+0x00007f309c429d99:    movabs $0x7f307c03ec38,%rsi
+0x00007f309c429da3:    addq   $0x1,0xd8(%rsi)
+0x00007f309c429dab:    movabs $0x7f307c03edc8,%rsi
+0x00007f309c429db5:    mov    0x90(%rsi),%edx
+0x00007f309c429dbb:    add    $0x2,%edx
+0x00007f309c429dbe:    mov    %edx,0x90(%rsi)
+0x00007f309c429dc4:    and    $0x1ffffe,%edx
+0x00007f309c429dca:    test   %edx,%edx
+0x00007f309c429dcc:    je     0x00007f309c42ab7e
+0x00007f309c429dd2:    movabs $0x7f307c03edc8,%rsi
+0x00007f309c429ddc:    addq   $0x1,0xd8(%rsi)
+0x00007f309c429de4:    mov    %rdi,%rsi
+0x00007f309c429de7:    mov    %edi,0x114(%rsp)
+0x00007f309c429dee:    nop
+0x00007f309c429def:    call   0x00007f30a3986ce0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 5, line = 106
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ([2], illegal) ([3], illegal) ([4], illegal)
+                                static int stringSize(int, int) @0x0000000028484520 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 2, line = 510
+                                locals ('length', illegal) ('value', illegal)
+                                expressions ([0], int 19)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c429df4:    nopl   0x20004ec(%rax,%rax,1)
+0x00007f309c429dfc:    add    $0x13,%eax
+0x00007f309c429dff:    movabs $0x7f307c03edc8,%rdx
+0x00007f309c429e09:    addq   $0x1,0xe8(%rdx)
+0x00007f309c429e11:    movabs $0x7f307c03db88,%rdx
+0x00007f309c429e1b:    mov    0x90(%rdx),%ecx
+0x00007f309c429e21:    add    $0x2,%ecx
+0x00007f309c429e24:    mov    %ecx,0x90(%rdx)
+0x00007f309c429e2a:    and    $0x1ffffe,%ecx
+0x00007f309c429e30:    test   %ecx,%ecx
+0x00007f309c429e32:    je     0x00007f309c42ab9f
+0x00007f309c429e38:    test   %eax,%eax
+0x00007f309c429e3a:    movabs $0x7f307c03db88,%rdx
+0x00007f309c429e44:    mov    $0xd8,%ecx
+0x00007f309c429e49:    jl     0x00007f309c429e50
+0x00007f309c429e4b:    mov    $0xe8,%ecx
+0x00007f309c429e50:    mov    (%rdx,%rcx,1),%rsi
+0x00007f309c429e54:    lea    0x1(%rsi),%rsi
+0x00007f309c429e58:    mov    %rsi,(%rdx,%rcx,1)
+0x00007f309c429e5c:    jl     0x00007f309c42a959
+0x00007f309c429e62:    movabs $0xc6731d18,%rdx
+0x00007f309c429e6c:    mov    %rdx,%rcx
+0x00007f309c429e6f:    movabs $0x7f307c03ec38,%rsi
+0x00007f309c429e79:    mov    0x8(%rcx),%ecx
+0x00007f309c429e7c:    mov    $0x28000000,%r10d
+0x00007f309c429e82:    add    %r10,%rcx
+0x00007f309c429e85:    cmp    0xf0(%rsi),%rcx
+0x00007f309c429e8c:    jne    0x00007f309c429e9b
+0x00007f309c429e8e:    addq   $0x1,0xf8(%rsi)
+0x00007f309c429e96:    jmp    0x00007f309c429efb
+0x00007f309c429e9b:    cmp    0x100(%rsi),%rcx
+0x00007f309c429ea2:    jne    0x00007f309c429eb1
+0x00007f309c429ea4:    addq   $0x1,0x108(%rsi)
+0x00007f309c429eac:    jmp    0x00007f309c429efb
+0x00007f309c429eb1:    cmpq   $0x0,0xf0(%rsi)
+0x00007f309c429eb9:    jne    0x00007f309c429ed2
+0x00007f309c429ebb:    mov    %rcx,0xf0(%rsi)
+0x00007f309c429ec2:    movq   $0x1,0xf8(%rsi)
+0x00007f309c429ecd:    jmp    0x00007f309c429efb
+0x00007f309c429ed2:    cmpq   $0x0,0x100(%rsi)
+0x00007f309c429eda:    jne    0x00007f309c429ef3
+0x00007f309c429edc:    mov    %rcx,0x100(%rsi)
+0x00007f309c429ee3:    movq   $0x1,0x108(%rsi)
+0x00007f309c429eee:    jmp    0x00007f309c429efb
+0x00007f309c429ef3:    addq   $0x1,0xe8(%rsi)
+0x00007f309c429efb:    movabs $0x7f307c01d550,%rcx
+0x00007f309c429f05:    mov    0x90(%rcx),%esi
+0x00007f309c429f0b:    add    $0x2,%esi
+0x00007f309c429f0e:    mov    %esi,0x90(%rcx)
+0x00007f309c429f14:    and    $0x1ffffe,%esi
+0x00007f309c429f1a:    test   %esi,%esi
+0x00007f309c429f1c:    je     0x00007f309c42abc0
+0x00007f309c429f22:    movabs $0x7f307c01d550,%rcx
+0x00007f309c429f2c:    mov    0x8(%rdx),%edx
+0x00007f309c429f2f:    mov    $0x28000000,%r10d
+0x00007f309c429f35:    add    %r10,%rdx
+0x00007f309c429f38:    cmp    0xe0(%rcx),%rdx
+0x00007f309c429f3f:    jne    0x00007f309c429f4e
+0x00007f309c429f41:    addq   $0x1,0xe8(%rcx)
+0x00007f309c429f49:    jmp    0x00007f309c429fae
+0x00007f309c429f4e:    cmp    0xf0(%rcx),%rdx
+0x00007f309c429f55:    jne    0x00007f309c429f64
+0x00007f309c429f57:    addq   $0x1,0xf8(%rcx)
+0x00007f309c429f5f:    jmp    0x00007f309c429fae
+0x00007f309c429f64:    cmpq   $0x0,0xe0(%rcx)
+0x00007f309c429f6c:    jne    0x00007f309c429f85
+0x00007f309c429f6e:    mov    %rdx,0xe0(%rcx)
+0x00007f309c429f75:    movq   $0x1,0xe8(%rcx)
+0x00007f309c429f80:    jmp    0x00007f309c429fae
+0x00007f309c429f85:    cmpq   $0x0,0xf0(%rcx)
+0x00007f309c429f8d:    jne    0x00007f309c429fa6
+0x00007f309c429f8f:    mov    %rdx,0xf0(%rcx)
+0x00007f309c429f96:    movq   $0x1,0xf8(%rcx)
+0x00007f309c429fa1:    jmp    0x00007f309c429fae
+0x00007f309c429fa6:    addq   $0x1,0xd8(%rcx)
+0x00007f309c429fae:    movabs $0x7f307c01ace0,%rdx
+0x00007f309c429fb8:    mov    0x90(%rdx),%ecx
+0x00007f309c429fbe:    add    $0x2,%ecx
+0x00007f309c429fc1:    mov    %ecx,0x90(%rdx)
+0x00007f309c429fc7:    and    $0x1ffffe,%ecx
+0x00007f309c429fcd:    test   %ecx,%ecx
+0x00007f309c429fcf:    je     0x00007f309c42abe1
+0x00007f309c429fd5:    movabs $0x7f307c01ace0,%rdx
+0x00007f309c429fdf:    incl   0xe8(%rdx)
+0x00007f309c429fe5:    movabs $0x7f307c01ace0,%rdx
+0x00007f309c429fef:    incl   0xf8(%rdx)
+0x00007f309c429ff5:    sub    $0xa,%eax
+0x00007f309c429ff8:    mov    %eax,0x124(%rsp)
+0x00007f309c429fff:    movabs $0x7f307c03ec38,%rdx
+0x00007f309c42a009:    addq   $0x1,0x118(%rdx)
+0x00007f309c42a011:    movabs $0x7f307c03e408,%rdx
+0x00007f309c42a01b:    mov    0x90(%rdx),%ecx
+0x00007f309c42a021:    add    $0x2,%ecx
+0x00007f309c42a024:    mov    %ecx,0x90(%rdx)
+0x00007f309c42a02a:    and    $0x1ffffe,%ecx
+0x00007f309c42a030:    test   %ecx,%ecx
+0x00007f309c42a032:    je     0x00007f309c42ac02
+0x00007f309c42a038:    movabs $0xc6731d18,%rdx
+0x00007f309c42a042:    mov    %rdx,%rcx
+0x00007f309c42a045:    movabs $0x7f307c03e408,%rsi
+0x00007f309c42a04f:    mov    0x8(%rcx),%ecx
+0x00007f309c42a052:    mov    $0x28000000,%r10d
+0x00007f309c42a058:    add    %r10,%rcx
+0x00007f309c42a05b:    cmp    0xe0(%rsi),%rcx
+0x00007f309c42a062:    jne    0x00007f309c42a071
+0x00007f309c42a064:    addq   $0x1,0xe8(%rsi)
+0x00007f309c42a06c:    jmp    0x00007f309c42a0d1
+0x00007f309c42a071:    cmp    0xf0(%rsi),%rcx
+0x00007f309c42a078:    jne    0x00007f309c42a087
+0x00007f309c42a07a:    addq   $0x1,0xf8(%rsi)
+0x00007f309c42a082:    jmp    0x00007f309c42a0d1
+0x00007f309c42a087:    cmpq   $0x0,0xe0(%rsi)
+0x00007f309c42a08f:    jne    0x00007f309c42a0a8
+0x00007f309c42a091:    mov    %rcx,0xe0(%rsi)
+0x00007f309c42a098:    movq   $0x1,0xe8(%rsi)
+0x00007f309c42a0a3:    jmp    0x00007f309c42a0d1
+0x00007f309c42a0a8:    cmpq   $0x0,0xf0(%rsi)
+0x00007f309c42a0b0:    jne    0x00007f309c42a0c9
+0x00007f309c42a0b2:    mov    %rcx,0xf0(%rsi)
+0x00007f309c42a0b9:    movq   $0x1,0xf8(%rsi)
+0x00007f309c42a0c4:    jmp    0x00007f309c42a0d1
+0x00007f309c42a0c9:    addq   $0x1,0xd8(%rsi)
+0x00007f309c42a0d1:    movabs $0x7f307c01d550,%rcx
+0x00007f309c42a0db:    mov    0x90(%rcx),%esi
+0x00007f309c42a0e1:    add    $0x2,%esi
+0x00007f309c42a0e4:    mov    %esi,0x90(%rcx)
+0x00007f309c42a0ea:    and    $0x1ffffe,%esi
+0x00007f309c42a0f0:    test   %esi,%esi
+0x00007f309c42a0f2:    je     0x00007f309c42ac23
+0x00007f309c42a0f8:    movabs $0x7f307c01d550,%rcx
+0x00007f309c42a102:    mov    0x8(%rdx),%edx
+0x00007f309c42a105:    mov    $0x28000000,%r10d
+0x00007f309c42a10b:    add    %r10,%rdx
+0x00007f309c42a10e:    cmp    0xe0(%rcx),%rdx
+0x00007f309c42a115:    jne    0x00007f309c42a124
+0x00007f309c42a117:    addq   $0x1,0xe8(%rcx)
+0x00007f309c42a11f:    jmp    0x00007f309c42a184
+0x00007f309c42a124:    cmp    0xf0(%rcx),%rdx
+0x00007f309c42a12b:    jne    0x00007f309c42a13a
+0x00007f309c42a12d:    addq   $0x1,0xf8(%rcx)
+0x00007f309c42a135:    jmp    0x00007f309c42a184
+0x00007f309c42a13a:    cmpq   $0x0,0xe0(%rcx)
+0x00007f309c42a142:    jne    0x00007f309c42a15b
+0x00007f309c42a144:    mov    %rdx,0xe0(%rcx)
+0x00007f309c42a14b:    movq   $0x1,0xe8(%rcx)
+0x00007f309c42a156:    jmp    0x00007f309c42a184
+0x00007f309c42a15b:    cmpq   $0x0,0xf0(%rcx)
+0x00007f309c42a163:    jne    0x00007f309c42a17c
+0x00007f309c42a165:    mov    %rdx,0xf0(%rcx)
+0x00007f309c42a16c:    movq   $0x1,0xf8(%rcx)
+0x00007f309c42a177:    jmp    0x00007f309c42a184
+0x00007f309c42a17c:    addq   $0x1,0xd8(%rcx)
+0x00007f309c42a184:    movabs $0x7f307c01ace0,%rdx
+0x00007f309c42a18e:    mov    0x90(%rdx),%ecx
+0x00007f309c42a194:    add    $0x2,%ecx
+0x00007f309c42a197:    mov    %ecx,0x90(%rdx)
+0x00007f309c42a19d:    and    $0x1ffffe,%ecx
+0x00007f309c42a1a3:    test   %ecx,%ecx
+0x00007f309c42a1a5:    je     0x00007f309c42ac44
+0x00007f309c42a1ab:    movabs $0x7f307c01ace0,%rdx
+0x00007f309c42a1b5:    incl   0xe8(%rdx)
+0x00007f309c42a1bb:    movabs $0x7f307c01ace0,%rdx
+0x00007f309c42a1c5:    incl   0xf8(%rdx)
+0x00007f309c42a1cb:    mov    %rax,%rcx
+0x00007f309c42a1ce:    add    $0xa,%ecx
+0x00007f309c42a1d1:    movabs $0x7f307c03e408,%rdx
+0x00007f309c42a1db:    addq   $0x1,0x108(%rdx)
+0x00007f309c42a1e3:    movabs $0x7f307c03b918,%rdx
+0x00007f309c42a1ed:    mov    0x90(%rdx),%esi
+0x00007f309c42a1f3:    add    $0x2,%esi
+0x00007f309c42a1f6:    mov    %esi,0x90(%rdx)
+0x00007f309c42a1fc:    and    $0x1ffffe,%esi
+0x00007f309c42a202:    test   %esi,%esi
+0x00007f309c42a204:    je     0x00007f309c42ac65
+0x00007f309c42a20a:    test   %ecx,%ecx
+0x00007f309c42a20c:    movabs $0x7f307c03b918,%rdx
+0x00007f309c42a216:    mov    $0xe8,%esi
+0x00007f309c42a21b:    jl     0x00007f309c42a222
+0x00007f309c42a21d:    mov    $0xd8,%esi
+0x00007f309c42a222:    mov    (%rdx,%rsi,1),%rdi
+0x00007f309c42a226:    lea    0x1(%rdi),%rdi
+0x00007f309c42a22a:    mov    %rdi,(%rdx,%rsi,1)
+0x00007f309c42a22e:    jl     0x00007f309c42a8bf
+0x00007f309c42a234:    movabs $0xc6702620,%rsi
+0x00007f309c42a23e:    mov    %rsi,%rdx
+0x00007f309c42a241:    movabs $0x7f307c03b918,%rdi
+0x00007f309c42a24b:    mov    0x8(%rdx),%edx
+0x00007f309c42a24e:    mov    $0x28000000,%r10d
+0x00007f309c42a254:    add    %r10,%rdx
+0x00007f309c42a257:    cmp    0x110(%rdi),%rdx
+0x00007f309c42a25e:    jne    0x00007f309c42a26d
+0x00007f309c42a260:    addq   $0x1,0x118(%rdi)
+0x00007f309c42a268:    jmp    0x00007f309c42a2cd
+0x00007f309c42a26d:    cmp    0x120(%rdi),%rdx
+0x00007f309c42a274:    jne    0x00007f309c42a283
+0x00007f309c42a276:    addq   $0x1,0x128(%rdi)
+0x00007f309c42a27e:    jmp    0x00007f309c42a2cd
+0x00007f309c42a283:    cmpq   $0x0,0x110(%rdi)
+0x00007f309c42a28b:    jne    0x00007f309c42a2a4
+0x00007f309c42a28d:    mov    %rdx,0x110(%rdi)
+0x00007f309c42a294:    movq   $0x1,0x118(%rdi)
+0x00007f309c42a29f:    jmp    0x00007f309c42a2cd
+0x00007f309c42a2a4:    cmpq   $0x0,0x120(%rdi)
+0x00007f309c42a2ac:    jne    0x00007f309c42a2c5
+0x00007f309c42a2ae:    mov    %rdx,0x120(%rdi)
+0x00007f309c42a2b5:    movq   $0x1,0x128(%rdi)
+0x00007f309c42a2c0:    jmp    0x00007f309c42a2cd
+0x00007f309c42a2c5:    addq   $0x1,0x108(%rdi)
+0x00007f309c42a2cd:    movabs $0xffeb1f98,%rdx
+0x00007f309c42a2d7:    call   0x00007f30a39866e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', stack[292], normal) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 8, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', stack[292], normal) ('coder', int 0) ([3], illegal)
+                                    static byte[] newArray(int) @0x0000000028484a48 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 21, line = 578
+                                    locals ('length', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42a2dc:    nopl   0x30009d4(%rax,%rax,1)
+0x00007f309c42a2e4:    test   %rax,%rax
+0x00007f309c42a2e7:    movabs $0x7f307c03b918,%rcx
+0x00007f309c42a2f1:    jne    0x00007f309c42a2ff
+0x00007f309c42a2f3:    orb    $0x1,0x131(%rcx)
+0x00007f309c42a2fa:    jmp    0x00007f309c42a3a7
+0x00007f309c42a2ff:    mov    0x8(%rax),%r8d
+0x00007f309c42a303:    mov    $0x28000000,%r10d
+0x00007f309c42a309:    add    %r10,%r8
+0x00007f309c42a30c:    cmp    0x140(%rcx),%r8
+0x00007f309c42a313:    jne    0x00007f309c42a322
+0x00007f309c42a315:    addq   $0x1,0x148(%rcx)
+0x00007f309c42a31d:    jmp    0x00007f309c42a382
+0x00007f309c42a322:    cmp    0x150(%rcx),%r8
+0x00007f309c42a329:    jne    0x00007f309c42a338
+0x00007f309c42a32b:    addq   $0x1,0x158(%rcx)
+0x00007f309c42a333:    jmp    0x00007f309c42a382
+0x00007f309c42a338:    cmpq   $0x0,0x140(%rcx)
+0x00007f309c42a340:    jne    0x00007f309c42a359
+0x00007f309c42a342:    mov    %r8,0x140(%rcx)
+0x00007f309c42a349:    movq   $0x1,0x148(%rcx)
+0x00007f309c42a354:    jmp    0x00007f309c42a382
+0x00007f309c42a359:    cmpq   $0x0,0x150(%rcx)
+0x00007f309c42a361:    jne    0x00007f309c42a37a
+0x00007f309c42a363:    mov    %r8,0x150(%rcx)
+0x00007f309c42a36a:    movq   $0x1,0x158(%rcx)
+0x00007f309c42a375:    jmp    0x00007f309c42a382
+0x00007f309c42a37a:    addq   $0x1,0x138(%rcx)
+0x00007f309c42a382:    movabs $0x28173070,%r8
+0x00007f309c42a38c:    mov    0x8(%rax),%ecx
+0x00007f309c42a38f:    mov    $0x28000000,%r10d
+0x00007f309c42a395:    add    %r10,%rcx
+0x00007f309c42a398:    cmp    0x38(%rcx),%r8
+0x00007f309c42a39c:    jne    0x00007f309c42ac86
+0x00007f309c42a3a2:    jmp    0x00007f309c42a3a7
+0x00007f309c42a3a7:    mov    %rax,%rdi
+0x00007f309c42a3aa:    mov    %rdi,0x128(%rsp)
+0x00007f309c42a3b2:    movabs $0x7f307c03e408,%rdx
+0x00007f309c42a3bc:    incl   0x128(%rdx)
+0x00007f309c42a3c2:    movabs $0xc6731d18,%rsi
+0x00007f309c42a3cc:    mov    %rsi,%rdx
+0x00007f309c42a3cf:    movabs $0x7f307c03e408,%rcx
+0x00007f309c42a3d9:    mov    0x8(%rdx),%edx
+0x00007f309c42a3dc:    mov    $0x28000000,%r10d
+0x00007f309c42a3e2:    add    %r10,%rdx
+0x00007f309c42a3e5:    cmp    0x140(%rcx),%rdx
+0x00007f309c42a3ec:    jne    0x00007f309c42a3fb
+0x00007f309c42a3ee:    addq   $0x1,0x148(%rcx)
+0x00007f309c42a3f6:    jmp    0x00007f309c42a45b
+0x00007f309c42a3fb:    cmp    0x150(%rcx),%rdx
+0x00007f309c42a402:    jne    0x00007f309c42a411
+0x00007f309c42a404:    addq   $0x1,0x158(%rcx)
+0x00007f309c42a40c:    jmp    0x00007f309c42a45b
+0x00007f309c42a411:    cmpq   $0x0,0x140(%rcx)
+0x00007f309c42a419:    jne    0x00007f309c42a432
+0x00007f309c42a41b:    mov    %rdx,0x140(%rcx)
+0x00007f309c42a422:    movq   $0x1,0x148(%rcx)
+0x00007f309c42a42d:    jmp    0x00007f309c42a45b
+0x00007f309c42a432:    cmpq   $0x0,0x150(%rcx)
+0x00007f309c42a43a:    jne    0x00007f309c42a453
+0x00007f309c42a43c:    mov    %rdx,0x150(%rcx)
+0x00007f309c42a443:    movq   $0x1,0x158(%rcx)
+0x00007f309c42a44e:    jmp    0x00007f309c42a45b
+0x00007f309c42a453:    addq   $0x1,0x138(%rcx)
+0x00007f309c42a45b:    mov    %rdi,%rdx
+0x00007f309c42a45e:    mov    0x124(%rsp),%ecx
+0x00007f309c42a465:    mov    $0x0,%r8d
+0x00007f309c42a46b:    nopl   0x0(%rax)
+0x00007f309c42a46f:    call   0x00007f30a39866e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', stack[292], normal) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 20, line = 613
+                                locals ('suffix', illegal) ('index', illegal) ('coder', illegal) ('buf', stack[296], oop)
+
+OopMap:
+Oops:[280]  [296]
+
+
+0x00007f309c42a474:    nopl   0x4000b6c(%rax,%rax,1)
+0x00007f309c42a47c:    movabs $0x7f307c03e408,%rsi
+0x00007f309c42a486:    incl   0x168(%rsi)
+0x00007f309c42a48c:    mov    0x128(%rsp),%rdi
+0x00007f309c42a494:    movabs $0x7f307c03ec38,%rsi
+0x00007f309c42a49e:    addq   $0x1,0x128(%rsi)
+0x00007f309c42a4a6:    mov    0x124(%rsp),%esi
+0x00007f309c42a4ad:    mov    $0x0,%edx
+0x00007f309c42a4b2:    mov    %rdi,%rcx
+0x00007f309c42a4b5:    mov    0x114(%rsp),%r8d
+0x00007f309c42a4bd:    movabs $0xc6731ce0,%r9
+0x00007f309c42a4c7:    call   0x00007f30a3986ce0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 48, line = 110
+                            locals ('this', oop 0x00000000c67326a8) ('value', illegal) ('length', illegal) ('suffix', illegal) ('buf', stack[296], oop)
+
+OopMap:
+Oops:[280]  [296]
+
+
+0x00007f309c42a4cc:    nopl   0x5000bc4(%rax,%rax,1)
+0x00007f309c42a4d4:    movabs $0x28176040,%rdx
+0x00007f309c42a4de:    mov    0x1c8(%r15),%rax
+0x00007f309c42a4e5:    lea    0x18(%rax),%rdi
+0x00007f309c42a4e9:    cmp    0x1d8(%r15),%rdi
+0x00007f309c42a4f0:    ja     0x00007f309c42ac8f
+0x00007f309c42a4f6:    mov    %rdi,0x1c8(%r15)
+0x00007f309c42a4fd:    movq   $0x1,(%rax)
+0x00007f309c42a504:    mov    %rdx,%rcx
+0x00007f309c42a507:    mov    $0x28000000,%r10d
+0x00007f309c42a50d:    sub    %r10,%rcx
+0x00007f309c42a510:    mov    %ecx,0x8(%rax)
+0x00007f309c42a513:    xor    %rcx,%rcx
+0x00007f309c42a516:    mov    %ecx,0xc(%rax)
+0x00007f309c42a519:    xor    %rcx,%rcx
+0x00007f309c42a51c:    mov    %rcx,0x10(%rax)
+0x00007f309c42a520:    mov    %rax,%rdx
+0x00007f309c42a523:    movabs $0x7f307c03ec38,%rsi
+0x00007f309c42a52d:    addq   $0x1,0x138(%rsi)
+0x00007f309c42a535:    movabs $0x7f307c03b7f0,%rdx
+0x00007f309c42a53f:    mov    0x90(%rdx),%esi
+0x00007f309c42a545:    add    $0x2,%esi
+0x00007f309c42a548:    mov    %esi,0x90(%rdx)
+0x00007f309c42a54e:    and    $0x1ffffe,%esi
+0x00007f309c42a554:    test   %esi,%esi
+0x00007f309c42a556:    je     0x00007f309c42ac9c
+0x00007f309c42a55c:    mov    %rax,%rdx
+0x00007f309c42a55f:    movabs $0x7f307c03b7f0,%rsi
+0x00007f309c42a569:    addq   $0x1,0xd8(%rsi)
+0x00007f309c42a571:    movabs $0x7f307c013a70,%rdx
+0x00007f309c42a57b:    mov    0x90(%rdx),%esi
+0x00007f309c42a581:    add    $0x2,%esi
+0x00007f309c42a584:    mov    %esi,0x90(%rdx)
+0x00007f309c42a58a:    and    $0x1ffffe,%esi
+0x00007f309c42a590:    test   %esi,%esi
+0x00007f309c42a592:    je     0x00007f309c42acbd
+0x00007f309c42a598:    movsbl 0x48(%r15),%edx
+0x00007f309c42a59d:    test   %edx,%edx
+0x00007f309c42a59f:    jne    0x00007f309c42acde
+0x00007f309c42a5a5:    mov    0x128(%rsp),%rdi
+0x00007f309c42a5ad:    mov    %rdi,%r10
+0x00007f309c42a5b0:    mov    %r10d,0x14(%rax)
+0x00007f309c42a5b4:    mov    %rax,%rdx
+0x00007f309c42a5b7:    xor    %rdi,%rdx
+0x00007f309c42a5ba:    shr    $0x14,%rdx
+0x00007f309c42a5be:    cmp    $0x0,%rdx
+0x00007f309c42a5c2:    jne    0x00007f309c42acf9
+0x00007f309c42a5c8:    movabs $0x7f307c401a40,%rdx
+0x00007f309c42a5d2:    addq   $0x1,0x178(%rdx)
+0x00007f309c42a5da:    movabs $0x7f307c03f3a8,%rdx
+0x00007f309c42a5e4:    mov    0x90(%rdx),%esi
+0x00007f309c42a5ea:    add    $0x2,%esi
+0x00007f309c42a5ed:    mov    %esi,0x90(%rdx)
+0x00007f309c42a5f3:    and    $0x1ffffe,%esi
+0x00007f309c42a5f9:    test   %esi,%esi
+0x00007f309c42a5fb:    je     0x00007f309c42ad11
+0x00007f309c42a601:    movabs $0xffe7cda0,%rdx
+0x00007f309c42a60b:    mov    0x7c(%rdx),%esi
+0x00007f309c42a60e:    cmp    (%rsi),%rax
+0x00007f309c42a611:    mov    %rsi,%rdx
+0x00007f309c42a614:    movabs $0x7f307c03f3a8,%rcx
+0x00007f309c42a61e:    addq   $0x1,0xe8(%rcx)
+0x00007f309c42a626:    mov    %rax,%rdx
+0x00007f309c42a629:    nopw   0x0(%rax,%rax,1)
+0x00007f309c42a62f:    call   0x00007f30a39866e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 46, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                public static void println(java.lang.Object) @0x00007f307c034d80 of public final class java.lang.IO @0x00000000290017d8 @ bci = 4, line = 101
+                locals ('obj', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42a634:    nopl   0x6000d2c(%rax,%rax,1)
+0x00007f309c42a63c:    mov    0x118(%rsp),%rax
+0x00007f309c42a644:    movabs $0x7f307c401a40,%rdx
+0x00007f309c42a64e:    addq   $0x1,0x188(%rdx)
+0x00007f309c42a656:    mov    0x118(%rsp),%rax
+0x00007f309c42a65e:    mov    0x10(%rax),%edx
+0x00007f309c42a661:    movabs $0x7f307c401a40,%rsi
+0x00007f309c42a66b:    addq   $0x1,0x1b8(%rsi)
+0x00007f309c42a673:    movabs $0x7f307c401800,%rsi
+0x00007f309c42a67d:    mov    0x90(%rsi),%edi
+0x00007f309c42a683:    add    $0x2,%edi
+0x00007f309c42a686:    mov    %edi,0x90(%rsi)
+0x00007f309c42a68c:    and    $0x1ffffe,%edi
+0x00007f309c42a692:    test   %edi,%edi
+0x00007f309c42a694:    je     0x00007f309c42ad37
+0x00007f309c42a69a:    mov    0x114(%rsp),%edi
+0x00007f309c42a6a1:    cmp    $0x4e20,%edi
+0x00007f309c42a6a7:    movabs $0x7f307c401800,%rsi
+0x00007f309c42a6b1:    mov    $0xe8,%ebx
+0x00007f309c42a6b6:    jl     0x00007f309c42a6bd
+0x00007f309c42a6b8:    mov    $0xd8,%ebx
+0x00007f309c42a6bd:    mov    (%rsi,%rbx,1),%rcx
+0x00007f309c42a6c1:    lea    0x1(%rcx),%rcx
+0x00007f309c42a6c5:    mov    %rcx,(%rsi,%rbx,1)
+0x00007f309c42a6c9:    jl     0x00007f309c42a6f3
+0x00007f309c42a6cf:    mov    %rdx,%rax
+0x00007f309c42a6d2:    mov    $0x64,%esi
+0x00007f309c42a6d7:    cmp    $0x80000000,%eax
+0x00007f309c42a6dc:    jne    0x00007f309c42a6ed
+0x00007f309c42a6e2:    xor    %edx,%edx
+0x00007f309c42a6e4:    cmp    $0xffffffff,%esi
+0x00007f309c42a6e7:    je     0x00007f309c42a6f0
+0x00007f309c42a6ed:    cltd
+0x00007f309c42a6ee:    idiv   %esi
+0x00007f309c42a6f0:    mov    %rax,%rdx
+0x00007f309c42a6f3:    mov    %edi,0x114(%rsp)
+0x00007f309c42a6fa:    movabs $0x7f307c401a40,%rsi
+0x00007f309c42a704:    addq   $0x1,0x1c8(%rsi)
+0x00007f309c42a70c:    movslq %edx,%rdx
+0x00007f309c42a70f:    mov    %rdx,%rsi
+0x00007f309c42a712:    nopl   0x0(%rax,%rax,1)
+0x00007f309c42a717:    call   0x00007f30a3986ce0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 59, line = 12
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42a71c:    nopl   0x7000e14(%rax,%rax,1)
+0x00007f309c42a724:    movabs $0x7f307c401a40,%rsi
+0x00007f309c42a72e:    addq   $0x1,0x1d8(%rsi)
+0x00007f309c42a736:    movabs $0x7f307c401928,%rsi
+0x00007f309c42a740:    mov    0x90(%rsi),%edx
+0x00007f309c42a746:    add    $0x2,%edx
+0x00007f309c42a749:    mov    %edx,0x90(%rsi)
+0x00007f309c42a74f:    and    $0x1ffffe,%edx
+0x00007f309c42a755:    test   %edx,%edx
+0x00007f309c42a757:    je     0x00007f309c42ad5d
+0x00007f309c42a75d:    mov    0x114(%rsp),%edi
+0x00007f309c42a764:    cmp    $0x2710,%edi
+0x00007f309c42a76a:    movabs $0x7f307c401928,%rsi
+0x00007f309c42a774:    mov    $0xe8,%edx
+0x00007f309c42a779:    jl     0x00007f309c42a780
+0x00007f309c42a77b:    mov    $0xd8,%edx
+0x00007f309c42a780:    mov    (%rsi,%rdx,1),%rbx
+0x00007f309c42a784:    lea    0x1(%rbx),%rbx
+0x00007f309c42a788:    mov    %rbx,(%rsi,%rdx,1)
+0x00007f309c42a78c:    mov    %rdi,%rsi
+0x00007f309c42a78f:    jl     0x00007f309c42a797
+0x00007f309c42a795:    shl    %esi
+0x00007f309c42a797:    add    0x120(%rsp),%esi
+0x00007f309c42a79e:    inc    %edi
+0x00007f309c42a7a0:    movabs $0x7f307c401a40,%rdx
+0x00007f309c42a7aa:    mov    0x94(%rdx),%ebx
+0x00007f309c42a7b0:    add    $0x2,%ebx
+0x00007f309c42a7b3:    mov    %ebx,0x94(%rdx)
+0x00007f309c42a7b9:    and    $0x3ffe,%ebx
+0x00007f309c42a7bf:    test   %ebx,%ebx
+0x00007f309c42a7c1:    je     0x00007f309c42ad7e
+0x00007f309c42a7c7:    mov    0x30(%r15),%r10
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 75, line = 10
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', rsi, int) ('i', rdi, int)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42a7cb:    test   %eax,(%r10)
+0x00007f309c42a7ce:    movabs $0x7f307c401a40,%rdx
+0x00007f309c42a7d8:    incl   0x1e8(%rdx)
+0x00007f309c42a7de:    mov    %rsi,%rbx
+0x00007f309c42a7e1:    mov    %ebx,0x120(%rsp)
+0x00007f309c42a7e8:    mov    0x118(%rsp),%rax
+0x00007f309c42a7f0:    jmp    0x00007f309c429c30
+0x00007f309c42a7f5:    mov    0x120(%rsp),%ebx
+0x00007f309c42a7fc:    nopl   0x0(%rax)
+0x00007f309c42a800:    jmp    0x00007f309c42adae
+0x00007f309c42a805:    nop
+0x00007f309c42a806:    nop
+0x00007f309c42a807:    nop
+0x00007f309c42a808:    nop
+0x00007f309c42a809:    nop
+0x00007f309c42a80a:    mov    %rbx,%rsi
+0x00007f309c42a80d:    xchg   %ax,%ax
+0x00007f309c42a80f:    call   0x00007f30a3986ce0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 80, line = 15
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', illegal) ('sum', illegal) ([5], illegal)
+
+OopMap:
+
+
+0x00007f309c42a814:    nopl   0x9000f0c(%rax,%rax,1)
+0x00007f309c42a81c:    movabs $0x7f307c401a40,%rdx
+0x00007f309c42a826:    lea    0x210(%rdx),%rdx
+0x00007f309c42a82d:    test   %rax,%rax
+0x00007f309c42a830:    jne    0x00007f309c42a83c
+0x00007f309c42a832:    testb  $0x1,(%rdx)
+0x00007f309c42a835:    jne    0x00007f309c42a83c
+0x00007f309c42a837:    lock orq $0x1,(%rdx)
+0x00007f309c42a83c:    movabs $0x7f307c401a40,%rdx
+0x00007f309c42a846:    addq   $0x1,0x220(%rdx)
+0x00007f309c42a84e:    movabs $0x7f307c03f3a8,%rdx
+0x00007f309c42a858:    mov    0x90(%rdx),%esi
+0x00007f309c42a85e:    add    $0x2,%esi
+0x00007f309c42a861:    mov    %esi,0x90(%rdx)
+0x00007f309c42a867:    and    $0x1ffffe,%esi
+0x00007f309c42a86d:    test   %esi,%esi
+0x00007f309c42a86f:    je     0x00007f309c42adb8
+0x00007f309c42a875:    movabs $0xffe7cda0,%rdx
+0x00007f309c42a87f:    mov    0x7c(%rdx),%esi
+0x00007f309c42a882:    cmp    (%rsi),%rax
+0x00007f309c42a885:    mov    %rsi,%rdx
+0x00007f309c42a888:    movabs $0x7f307c03f3a8,%rdi
+0x00007f309c42a892:    addq   $0x1,0xe8(%rdi)
+0x00007f309c42a89a:    mov    %rax,%rdx
+0x00007f309c42a89d:    xchg   %ax,%ax
+0x00007f309c42a89f:    call   0x00007f30a39866e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 85, line = 15
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', illegal) ('sum', illegal) ([5], illegal)
+                public static void println(java.lang.Object) @0x00007f307c034d80 of public final class java.lang.IO @0x00000000290017d8 @ bci = 4, line = 101
+                locals ('obj', illegal)
+
+OopMap:
+
+
+0x00007f309c42a8a4:    nopl   0xa000f9c(%rax,%rax,1)
+0x00007f309c42a8ac:    add    $0x150,%rsp
+0x00007f309c42a8b3:    pop    %rbp
+0x00007f309c42a8b4:    cmp    0x28(%r15),%rsp
+0x00007f309c42a8b8:    ja     0x00007f309c42adde
+0x00007f309c42a8be:    ret
+0x00007f309c42a8bf:    nop
+0x00007f309c42a8c0:    jmp    0x00007f309c42ae03
+0x00007f309c42a8c5:    add    %al,(%rax)
+0x00007f309c42a8c7:    add    %al,(%rax)
+0x00007f309c42a8c9:    add    %cl,-0x75(%rcx)
+0x00007f309c42a8cc:    xchg   %ecx,%eax
+0x00007f309c42a8ce:    add    %eax,(%rax)
+0x00007f309c42a8d0:    add    %cl,-0x73(%rax)
+0x00007f309c42a8d3:    js     0x00007f309c42a8fd
+0x00007f309c42a8d5:    cmp    0x1d8(%r15),%rdi
+0x00007f309c42a8dc:    ja     0x00007f309c42ae0d
+0x00007f309c42a8e2:    mov    %rdi,0x1c8(%r15)
+0x00007f309c42a8e9:    movq   $0x1,(%rax)
+0x00007f309c42a8f0:    mov    %rdx,%rcx
+0x00007f309c42a8f3:    mov    $0x28000000,%r10d
+0x00007f309c42a8f9:    sub    %r10,%rcx
+0x00007f309c42a8fc:    mov    %ecx,0x8(%rax)
+0x00007f309c42a8ff:    xor    %rcx,%rcx
+0x00007f309c42a902:    mov    %ecx,0xc(%rax)
+0x00007f309c42a905:    xor    %rcx,%rcx
+0x00007f309c42a908:    mov    %rcx,0x10(%rax)
+0x00007f309c42a90c:    mov    %rcx,0x18(%rax)
+0x00007f309c42a910:    mov    %rcx,0x20(%rax)
+0x00007f309c42a914:    mov    %rax,%rdx
+0x00007f309c42a917:    movabs $0x7f307c03b918,%rsi
+0x00007f309c42a921:    addq   $0x1,0xf8(%rsi)
+0x00007f309c42a929:    movabs $0xffe57c10,%rdx
+0x00007f309c42a933:    mov    %rax,%rsi
+0x00007f309c42a936:    mov    %rax,0x130(%rsp)
+0x00007f309c42a93e:    nop
+0x00007f309c42a93f:    call   0x00007f30a39866e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', stack[292], normal) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 8, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', stack[292], normal) ('coder', int 0) ([3], illegal)
+                                    static byte[] newArray(int) @0x0000000028484a48 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 10, line = 576
+                                    locals ('length', illegal)
+                                    expressions ([0], stack[304], oop)
+
+OopMap:
+Oops:[280]  [304]
+
+
+0x00007f309c42a944:    nopl   0xb00103c(%rax,%rax,1)
+0x00007f309c42a94c:    mov    0x130(%rsp),%rax
+0x00007f309c42a954:    jmp    0x00007f309c42ae5d
+0x00007f309c42a959:    nopl   0x0(%rax)
+0x00007f309c42a960:    jmp    0x00007f309c42ae29
+0x00007f309c42a965:    add    %al,(%rax)
+0x00007f309c42a967:    add    %al,(%rax)
+0x00007f309c42a969:    add    %cl,-0x75(%rcx)
+0x00007f309c42a96c:    xchg   %ecx,%eax
+0x00007f309c42a96e:    add    %eax,(%rax)
+0x00007f309c42a970:    add    %cl,-0x73(%rax)
+0x00007f309c42a973:    js     0x00007f309c42a99d
+0x00007f309c42a975:    cmp    0x1d8(%r15),%rdi
+0x00007f309c42a97c:    ja     0x00007f309c42ae33
+0x00007f309c42a982:    mov    %rdi,0x1c8(%r15)
+0x00007f309c42a989:    movq   $0x1,(%rax)
+0x00007f309c42a990:    mov    %rdx,%rcx
+0x00007f309c42a993:    mov    $0x28000000,%r10d
+0x00007f309c42a999:    sub    %r10,%rcx
+0x00007f309c42a99c:    mov    %ecx,0x8(%rax)
+0x00007f309c42a99f:    xor    %rcx,%rcx
+0x00007f309c42a9a2:    mov    %ecx,0xc(%rax)
+0x00007f309c42a9a5:    xor    %rcx,%rcx
+0x00007f309c42a9a8:    mov    %rcx,0x10(%rax)
+0x00007f309c42a9ac:    mov    %rcx,0x18(%rax)
+0x00007f309c42a9b0:    mov    %rcx,0x20(%rax)
+0x00007f309c42a9b4:    mov    %rax,%rdx
+0x00007f309c42a9b7:    movabs $0x7f307c03db88,%rsi
+0x00007f309c42a9c1:    addq   $0x1,0xf8(%rsi)
+0x00007f309c42a9c9:    movabs $0xffe57c10,%rdx
+0x00007f309c42a9d3:    mov    %rax,%rsi
+0x00007f309c42a9d6:    mov    %rax,0x138(%rsp)
+0x00007f309c42a9de:    nop
+0x00007f309c42a9df:    call   0x00007f30a39866e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 5, line = 106
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ([2], illegal) ([3], illegal) ([4], illegal)
+                                static int stringSize(int, int) @0x0000000028484520 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 6, line = 510
+                                locals ('length', illegal) ('value', illegal)
+                                    static int checkOverflow(int) @0x00000000284840a8 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 12, line = 787
+                                    locals ('value', illegal)
+                                    expressions ([0], stack[312], oop)
+
+OopMap:
+Oops:[280]  [312]
+
+
+0x00007f309c42a9e4:    nopl   0xc0010dc(%rax,%rax,1)
+0x00007f309c42a9ec:    mov    0x138(%rsp),%rax
+0x00007f309c42a9f4:    jmp    0x00007f309c42ae5d
+0x00007f309c42a9f9:    movabs $0x7f307c4005c0,%r10
+0x00007f309c42aa03:    mov    %r10,0x8(%rsp)
+0x00007f309c42aa08:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42aa10:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = -1, line = 6
+            locals ([0], rsi, oop) ([1], illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+
+OopMap:
+Oops:rsi
+
+
+0x00007f309c42aa15:    jmp    0x00007f309c429a46
+0x00007f309c42aa1a:    call   0x00007f30a3a577e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 2, line = 6
+            locals ('args', illegal) ([1], illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+
+OopMap:
+Oops:rsi
+
+
+0x00007f309c42aa1f:    call   0x00007f30a3a577e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 2, line = 6
+            locals ('args', illegal) ([1], illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+
+OopMap:
+Oops:rsi
+
+
+0x00007f309c42aa24:    movq   $0x0,(%rsp)
+0x00007f309c42aa2c:    mov    %rsi,0x8(%rsp)
+0x00007f309c42aa31:    call   0x00007f30a3a56ee0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 2, line = 6
+            locals ('args', illegal) ([1], illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+
+OopMap:
+Oops:rsi
+
+
+0x00007f309c42aa36:    movabs $0x2819f780,%r10
+0x00007f309c42aa40:    mov    %r10,0x8(%rsp)
+0x00007f309c42aa45:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42aa4d:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 3, line = 6
+            locals ('args', rsi, oop) ([1], illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+                public static int parseInt(java.lang.String) @0x000000002819f780 of public final class java.lang.Integer [signature Ljava/lang/Number;Ljava/lang/Comparable<Ljava/lang/Integer;>;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x000000002819e220 @ bci = -1, line = 662
+                locals ([0], rdx, oop)
+
+OopMap:
+Oops:rsi  rdx
+
+
+0x00007f309c42aa52:    jmp    0x00007f309c429a8c
+0x00007f309c42aa57:    movq   $0x1,(%rsp)
+0x00007f309c42aa5f:    mov    %rsi,0x8(%rsp)
+0x00007f309c42aa64:    call   0x00007f30a3a56ee0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 9, line = 7
+            locals ('args', illegal) ('nrOfIterations', illegal) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+
+OopMap:
+Oops:rsi
+
+
+0x00007f309c42aa69:    movabs $0x2819f780,%r10
+0x00007f309c42aa73:    mov    %r10,0x8(%rsp)
+0x00007f309c42aa78:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42aa80:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 10, line = 7
+            locals ('args', illegal) ('nrOfIterations', rax, int) ([2], illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+                public static int parseInt(java.lang.String) @0x000000002819f780 of public final class java.lang.Integer [signature Ljava/lang/Number;Ljava/lang/Comparable<Ljava/lang/Integer;>;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x000000002819e220 @ bci = -1, line = 662
+                locals ([0], rsi, oop)
+
+OopMap:
+Oops:rsi
+
+
+0x00007f309c42aa85:    jmp    0x00007f309c429b0a
+0x00007f309c42aa8a:    mov    %rdx,%rdx
+0x00007f309c42aa8d:    call   0x00007f30a3a580e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 14, line = 8
+            locals ('args', illegal) ('nrOfIterations', stack[272], normal) ('sleepInMillis', rbx, int) ([3], illegal) ([4], illegal) ([5], illegal)
+
+OopMap:
+
+
+0x00007f309c42aa92:    jmp    0x00007f309c429b8b
+0x00007f309c42aa97:    movabs $0x7f307c400c08,%r10
+0x00007f309c42aaa1:    mov    %r10,0x8(%rsp)
+0x00007f309c42aaa6:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42aaae:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 20, line = 8
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+            expressions ([0], rax, oop)
+                private void <init>(int, int) @0x00007f307c400c08 of final class org.zygiert.Main$ArgumentsHolder @0x0000000029040210 @ bci = -1, line = 39
+                locals ([0], rax, oop) ([1], stack[272], normal) ([2], rbx, int)
+
+OopMap:
+Oops:rax  [280]
+
+
+0x00007f309c42aab3:    jmp    0x00007f309c429bcf
+0x00007f309c42aab8:    movabs $0x2849e3d0,%r10
+0x00007f309c42aac2:    mov    %r10,0x8(%rsp)
+0x00007f309c42aac7:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42aacf:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 20, line = 8
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ([3], illegal) ([4], illegal) ([5], illegal)
+            expressions ([0], rax, oop)
+                private void <init>(int, int) @0x00007f307c400c08 of final class org.zygiert.Main$ArgumentsHolder @0x0000000029040210 @ bci = 1, line = 39
+                locals ('this', rax, oop) ('nrOfIterations', stack[272], normal) ('sleepInMillis', rbx, int)
+                    public void <init>() @0x000000002849e3d0 of public class java.lang.Object @0x0000000028171bf8 @ bci = -1, line = 44
+                    locals ([0], rax, oop)
+
+OopMap:
+Oops:rax  [280]
+
+
+0x00007f309c42aad4:    jmp    0x00007f309c429c0b
+0x00007f309c42aad9:    movabs $0x28209330,%r10
+0x00007f309c42aae3:    mov    %r10,0x8(%rsp)
+0x00007f309c42aae8:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42aaf0:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = -1
+                locals ([0], rdi, int) ([1], oop 0x00000000c67439c8)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42aaf5:    jmp    0x00007f309c429cab
+0x00007f309c42aafa:    movabs $0x7f307c401288,%r10
+0x00007f309c42ab04:    mov    %r10,0x8(%rsp)
+0x00007f309c42ab09:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ab11:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = -1
+                    locals ([0], oop 0x00000000c67439c8) ([1], rdi, int) ([2], illegal) ([3], illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ab16:    jmp    0x00007f309c429ce4
+0x00007f309c42ab1b:    movabs $0x2820c130,%r10
+0x00007f309c42ab25:    mov    %r10,0x8(%rsp)
+0x00007f309c42ab2a:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ab32:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = -1
+                        locals ([0], oop 0x00000000c6733188) ([1], oop 0x00000000c67326a8) ([2], rdi, int) ([3], illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ab37:    jmp    0x00007f309c429d1d
+0x00007f309c42ab3c:    movabs $0x281fc9c8,%r10
+0x00007f309c42ab46:    mov    %r10,0x8(%rsp)
+0x00007f309c42ab4b:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ab53:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 1
+                        locals ([0], illegal) ([1], oop 0x00000000c67326a8) ([2], rdi, int) ([3], illegal)
+                            static java.lang.Object internalMemberName(java.lang.Object) @0x00000000281fc9c8 of class java.lang.invoke.DirectMethodHandle @0x00000000281fbd20 @ bci = -1, line = 326
+                            locals ([0], oop 0x00000000c6733188)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ab58:    jmp    0x00007f309c429d56
+0x00007f309c42ab5d:    movabs $0x282c1db0,%r10
+0x00007f309c42ab67:    mov    %r10,0x8(%rsp)
+0x00007f309c42ab6c:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ab74:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = -1, line = 106
+                            locals ([0], oop 0x00000000c67326a8) ([1], rdi, int) ([2], illegal) ([3], illegal) ([4], illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ab79:    jmp    0x00007f309c429d99
+0x00007f309c42ab7e:    movabs $0x28484520,%r10
+0x00007f309c42ab88:    mov    %r10,0x8(%rsp)
+0x00007f309c42ab8d:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ab95:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 5, line = 106
+                            locals ('this', oop 0x00000000c67326a8) ('value', rdi, int) ([2], illegal) ([3], illegal) ([4], illegal)
+                                static int stringSize(int, int) @0x0000000028484520 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = -1, line = 510
+                                locals ([0], int 19) ([1], rdi, int)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ab9a:    jmp    0x00007f309c429dd2
+0x00007f309c42ab9f:    movabs $0x284840a8,%r10
+0x00007f309c42aba9:    mov    %r10,0x8(%rsp)
+0x00007f309c42abae:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42abb6:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 5, line = 106
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ([2], illegal) ([3], illegal) ([4], illegal)
+                                static int stringSize(int, int) @0x0000000028484520 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 6, line = 510
+                                locals ('length', illegal) ('value', illegal)
+                                    static int checkOverflow(int) @0x00000000284840a8 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = -1, line = 784
+                                    locals ([0], rax, int)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42abbb:    jmp    0x00007f309c429e38
+0x00007f309c42abc0:    movabs $0x28176a70,%r10
+0x00007f309c42abca:    mov    %r10,0x8(%rsp)
+0x00007f309c42abcf:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42abd7:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 18, line = 108
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', illegal) ('suffix', oop 0x00000000c6731d18) ([4], illegal)
+                            expressions ([0], rax, int)
+                                public int length() @0x0000000028176a70 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = -1, line = 1583
+                                locals ([0], oop 0x00000000c6731d18)
+
+OopMap:
+Oops:rdx  [280]
+
+
+0x00007f309c42abdc:    jmp    0x00007f309c429f22
+0x00007f309c42abe1:    movabs $0x28498bf0,%r10
+0x00007f309c42abeb:    mov    %r10,0x8(%rsp)
+0x00007f309c42abf0:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42abf8:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 18, line = 108
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', illegal) ('suffix', oop 0x00000000c6731d18) ([4], illegal)
+                            expressions ([0], rax, int)
+                                public int length() @0x0000000028176a70 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = 6, line = 1583
+                                locals ('this', illegal)
+                                expressions ([0], int 10)
+                                    byte coder() @0x0000000028498bf0 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = -1, line = 4885
+                                    locals ([0], oop 0x00000000c6731d18)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42abfd:    jmp    0x00007f309c429fd5
+0x00007f309c42ac02:    movabs $0x28483e98,%r10
+0x00007f309c42ac0c:    mov    %r10,0x8(%rsp)
+0x00007f309c42ac11:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ac19:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', rax, int) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = -1, line = 611
+                                locals ([0], oop 0x00000000c6731d18) ([1], rax, int) ([2], int 0) ([3], illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ac1e:    jmp    0x00007f309c42a038
+0x00007f309c42ac23:    movabs $0x28176a70,%r10
+0x00007f309c42ac2d:    mov    %r10,0x8(%rsp)
+0x00007f309c42ac32:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ac3a:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', rax, int) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 2, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', rax, int) ('coder', int 0) ([3], illegal)
+                                expressions ([0], rax, int)
+                                    public int length() @0x0000000028176a70 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = -1, line = 1583
+                                    locals ([0], oop 0x00000000c6731d18)
+
+OopMap:
+Oops:rdx  [280]
+
+
+0x00007f309c42ac3f:    jmp    0x00007f309c42a0f8
+0x00007f309c42ac44:    movabs $0x28498bf0,%r10
+0x00007f309c42ac4e:    mov    %r10,0x8(%rsp)
+0x00007f309c42ac53:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ac5b:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', rax, int) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 2, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', rax, int) ('coder', int 0) ([3], illegal)
+                                expressions ([0], rax, int)
+                                    public int length() @0x0000000028176a70 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = 6, line = 1583
+                                    locals ('this', illegal)
+                                    expressions ([0], int 10)
+                                        byte coder() @0x0000000028498bf0 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = -1, line = 4885
+                                        locals ([0], oop 0x00000000c6731d18)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ac60:    jmp    0x00007f309c42a1ab
+0x00007f309c42ac65:    movabs $0x28484a48,%r10
+0x00007f309c42ac6f:    mov    %r10,0x8(%rsp)
+0x00007f309c42ac74:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ac7c:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', rax, int) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 8, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', rax, int) ('coder', int 0) ([3], illegal)
+                                    static byte[] newArray(int) @0x0000000028484a48 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = -1, line = 575
+                                    locals ([0], rcx, int)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ac81:    jmp    0x00007f309c42a20a
+0x00007f309c42ac86:    mov    %rax,(%rsp)
+0x00007f309c42ac8a:    call   0x00007f30a3a5a060
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', stack[292], normal) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 8, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', stack[292], normal) ('coder', int 0) ([3], illegal)
+                                    static byte[] newArray(int) @0x0000000028484a48 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 24, line = 578
+                                    locals ('length', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ac8f:    mov    %rdx,%rdx
+0x00007f309c42ac92:    call   0x00007f30a3a580e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 52, line = 111
+                            locals ('this', oop 0x00000000c67326a8) ('value', illegal) ('length', illegal) ('suffix', illegal) ('buf', stack[296], oop)
+
+OopMap:
+Oops:[280]  [296]
+
+
+0x00007f309c42ac97:    jmp    0x00007f309c42a520
+0x00007f309c42ac9c:    movabs $0x284995e8,%r10
+0x00007f309c42aca6:    mov    %r10,0x8(%rsp)
+0x00007f309c42acab:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42acb3:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 62, line = 111
+                            locals ('this', illegal) ('value', illegal) ('length', illegal) ('suffix', illegal) ('buf', illegal)
+                            expressions ([0], rax, oop)
+                                void <init>(byte[], byte) @0x00000000284995e8 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = -1, line = 4879
+                                locals ([0], rax, oop) ([1], stack[296], oop) ([2], int 0)
+
+OopMap:
+Oops:rax  [280]  [296]
+
+
+0x00007f309c42acb8:    jmp    0x00007f309c42a55c
+0x00007f309c42acbd:    movabs $0x2849e3d0,%r10
+0x00007f309c42acc7:    mov    %r10,0x8(%rsp)
+0x00007f309c42accc:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42acd4:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 62, line = 111
+                            locals ('this', illegal) ('value', illegal) ('length', illegal) ('suffix', illegal) ('buf', illegal)
+                            expressions ([0], rax, oop)
+                                void <init>(byte[], byte) @0x00000000284995e8 of public final class java.lang.String [signature Ljava/lang/Object;Ljava/io/Serializable;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/lang/CharSequence;Ljava/lang/constant/Constable;Ljava/lang/constant/ConstantDesc;] @0x0000000028176040 @ bci = 1, line = 4879
+                                locals ('this', rax, oop) ('value', stack[296], oop) ('coder', int 0)
+                                    public void <init>() @0x000000002849e3d0 of public class java.lang.Object @0x0000000028171bf8 @ bci = -1, line = 44
+                                    locals ([0], rax, oop)
+
+OopMap:
+Oops:rax  [280]  [296]
+
+
+0x00007f309c42acd9:    jmp    0x00007f309c42a598
+0x00007f309c42acde:    mov    0x14(%rax),%edx
+0x00007f309c42ace1:    cmp    $0x0,%rdx
+0x00007f309c42ace5:    je     0x00007f309c42a5a5
+0x00007f309c42aceb:    mov    %rdx,(%rsp)
+0x00007f309c42acef:    call   0x00007f30a3a5d460
+0x00007f309c42acf4:    jmp    0x00007f309c42a5a5
+0x00007f309c42acf9:    cmp    $0x0,%rdi
+0x00007f309c42acfd:    je     0x00007f309c42a5c8
+0x00007f309c42ad03:    mov    %rax,(%rsp)
+0x00007f309c42ad07:    call   0x00007f30a3a5d760
+0x00007f309c42ad0c:    jmp    0x00007f309c42a5c8
+0x00007f309c42ad11:    movabs $0x7f307c034d80,%r10
+0x00007f309c42ad1b:    mov    %r10,0x8(%rsp)
+0x00007f309c42ad20:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ad28:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 46, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                public static void println(java.lang.Object) @0x00007f307c034d80 of public final class java.lang.IO @0x00000000290017d8 @ bci = -1, line = 101
+                locals ([0], rax, oop)
+
+OopMap:
+Oops:rax  [280]
+
+
+0x00007f309c42ad2d:    jmp    0x00007f309c42a601
+0x00007f309c42ad32:    call   0x00007f30a3a577e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 46, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                public static void println(java.lang.Object) @0x00007f307c034d80 of public final class java.lang.IO @0x00000000290017d8 @ bci = 4, line = 101
+                locals ('obj', illegal)
+
+OopMap:
+Oops:rax  rsi  [280]
+
+
+0x00007f309c42ad37:    movabs $0x7f307c400768,%r10
+0x00007f309c42ad41:    mov    %r10,0x8(%rsp)
+0x00007f309c42ad46:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ad4e:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 55, line = 12
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', rax, oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                private static int resolveSleepInMillis(int, int) @0x00007f307c400768 of public class org.zygiert.Main @0x0000000029040000 @ bci = -1, line = 27
+                locals ([0], stack[276], normal) ([1], rdx, int)
+
+OopMap:
+Oops:rax  [280]
+
+
+0x00007f309c42ad53:    jmp    0x00007f309c42a69a
+0x00007f309c42ad58:    call   0x00007f30a3a574e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 55, line = 12
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', rdi, int)
+                private static int resolveSleepInMillis(int, int) @0x00007f307c400768 of public class org.zygiert.Main @0x0000000029040000 @ bci = 12, line = 30
+                locals ('i', illegal) ('sleepInMillis', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ad5d:    movabs $0x7f307c400698,%r10
+0x00007f309c42ad67:    mov    %r10,0x8(%rsp)
+0x00007f309c42ad6c:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42ad74:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 66, line = 13
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', illegal) ('i', stack[276], normal)
+            expressions ([0], stack[288], normal)
+                private static int resolveNumber(int) @0x00007f307c400698 of public class org.zygiert.Main @0x0000000029040000 @ bci = -1, line = 19
+                locals ([0], stack[276], normal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ad79:    jmp    0x00007f309c42a75d
+0x00007f309c42ad7e:    movabs $0x7f307c4005c0,%r10
+0x00007f309c42ad88:    mov    %r10,0x8(%rsp)
+0x00007f309c42ad8d:    movq   $0x4b,(%rsp)
+0x00007f309c42ad95:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 75, line = 10
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', rsi, int) ('i', rdi, int)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ad9a:    jmp    0x00007f309c42a7c7
+0x00007f309c42ad9f:    movabs $0x0,%rdx
+0x00007f309c42ada9:    mov    $0xa050f00,%eax
+0x00007f309c42adae:    call   0x00007f30a3a5c760
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 80, line = 15
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', illegal) ('sum', illegal) ([5], illegal)
+            expressions ([0], rbx, int)
+
+OopMap:
+
+
+0x00007f309c42adb3:    jmp    0x00007f309c42a800
+0x00007f309c42adb8:    movabs $0x7f307c034d80,%r10
+0x00007f309c42adc2:    mov    %r10,0x8(%rsp)
+0x00007f309c42adc7:    movq   $0xffffffffffffffff,(%rsp)
+0x00007f309c42adcf:    call   0x00007f30a3a5ce60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 85, line = 15
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', illegal) ('sum', illegal) ([5], illegal)
+                public static void println(java.lang.Object) @0x00007f307c034d80 of public final class java.lang.IO @0x00000000290017d8 @ bci = -1, line = 101
+                locals ([0], rax, oop)
+
+OopMap:
+Oops:rax
+
+
+0x00007f309c42add4:    jmp    0x00007f309c42a875
+0x00007f309c42add9:    call   0x00007f30a3a577e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 85, line = 15
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', illegal) ('sum', illegal) ([5], illegal)
+                public static void println(java.lang.Object) @0x00007f307c034d80 of public final class java.lang.IO @0x00000000290017d8 @ bci = 4, line = 101
+                locals ('obj', illegal)
+
+OopMap:
+Oops:rax  rsi
+
+
+0x00007f309c42adde:    movabs $0x7f309c42a8b4,%r10
+0x00007f309c42ade8:    mov    %r10,0x538(%r15)
+0x00007f309c42adef:    jmp    0x00007f30a3988860
+0x00007f309c42adf4:    movabs $0x0,%rdx
+0x00007f309c42adfe:    mov    $0xa050f00,%eax
+0x00007f309c42ae03:    call   0x00007f30a3a5bf60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', stack[292], normal) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 8, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', stack[292], normal) ('coder', int 0) ([3], illegal)
+                                    static byte[] newArray(int) @0x0000000028484a48 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 4, line = 576
+                                    locals ('length', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ae08:    jmp    0x00007f309c42a8c0
+0x00007f309c42ae0d:    mov    %rdx,%rdx
+0x00007f309c42ae10:    call   0x00007f30a3a580e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 29, line = 109
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ('length', stack[292], normal) ('suffix', illegal) ([4], illegal)
+                                static byte[] newArrayWithSuffix(java.lang.String, int, byte) @0x0000000028483e98 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 8, line = 611
+                                locals ('suffix', oop 0x00000000c6731d18) ('index', stack[292], normal) ('coder', int 0) ([3], illegal)
+                                    static byte[] newArray(int) @0x0000000028484a48 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 4, line = 576
+                                    locals ('length', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ae15:    jmp    0x00007f309c42a914
+0x00007f309c42ae1a:    movabs $0x0,%rdx
+0x00007f309c42ae24:    mov    $0xa050f00,%eax
+0x00007f309c42ae29:    call   0x00007f30a3a5bf60
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 5, line = 106
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ([2], illegal) ([3], illegal) ([4], illegal)
+                                static int stringSize(int, int) @0x0000000028484520 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 6, line = 510
+                                locals ('length', illegal) ('value', illegal)
+                                    static int checkOverflow(int) @0x00000000284840a8 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 6, line = 787
+                                    locals ('value', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ae2e:    jmp    0x00007f309c42a960
+0x00007f309c42ae33:    mov    %rdx,%rdx
+0x00007f309c42ae36:    call   0x00007f30a3a580e0
+            static void main(java.lang.String[]) @0x00007f307c4005c0 of public class org.zygiert.Main @0x0000000029040000 @ bci = 41, line = 11
+            locals ('args', illegal) ('nrOfIterations', illegal) ('sleepInMillis', illegal) ('argumentHolder', stack[280], oop) ('sum', stack[288], normal) ('i', stack[276], normal)
+                static java.lang.Object linkToTargetMethod(int, java.lang.Object) @0x0000000028209330 of final class java.lang.invoke.Invokers$Holder @0x0000000028208fd8 @ bci = 5
+                locals ([0], illegal) ([1], illegal)
+                    static java.lang.Object invoke(java.lang.Object, int) @0x00007f307c401288 of final class java.lang.invoke.LambdaForm$MH+0x0000000029040800 @0x0000000029040800 @ bci = 21
+                    locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                        static java.lang.Object invokeSpecial(java.lang.Object, java.lang.Object, int) @0x000000002820c130 of final class java.lang.invoke.DirectMethodHandle$Holder @0x000000002820a780 @ bci = 11
+                        locals ([0], illegal) ([1], illegal) ([2], illegal) ([3], illegal)
+                            java.lang.String concat(int) @0x00000000282c1db0 of final class java.lang.StringConcatHelper$Concat1 @0x00000000282c1638 @ bci = 5, line = 106
+                            locals ('this', oop 0x00000000c67326a8) ('value', stack[276], normal) ([2], illegal) ([3], illegal) ([4], illegal)
+                                static int stringSize(int, int) @0x0000000028484520 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 6, line = 510
+                                locals ('length', illegal) ('value', illegal)
+                                    static int checkOverflow(int) @0x00000000284840a8 of final class java.lang.StringConcatHelper @0x000000002818ca50 @ bci = 6, line = 787
+                                    locals ('value', illegal)
+
+OopMap:
+Oops:[280]
+
+
+0x00007f309c42ae3b:    jmp    0x00007f309c42a9b4
+0x00007f309c42ae40:    mov    0x5e0(%r15),%rax
+0x00007f309c42ae47:    movq   $0x0,0x5e0(%r15)
+0x00007f309c42ae52:    movq   $0x0,0x5e8(%r15)
+0x00007f309c42ae5d:    add    $0x150,%rsp
+0x00007f309c42ae64:    pop    %rbp
+0x00007f309c42ae65:    jmp    0x00007f30a3a568e0
+0x00007f309c42ae6a:    hlt
+0x00007f309c42ae6b:    hlt
+0x00007f309c42ae6c:    hlt
+0x00007f309c42ae6d:    hlt
+0x00007f309c42ae6e:    hlt
+0x00007f309c42ae6f:    hlt
+[Stub Code]
+0x00007f309c42ae70:    nopl   0x0(%rax,%rax,1)
+0x00007f309c42ae75:    movabs $0x0,%rbx
+0x00007f309c42ae7f:    jmp    0x00007f309c42ae7f
+0x00007f309c42ae84:    nop
+0x00007f309c42ae85:    movabs $0x0,%rbx
+0x00007f309c42ae8f:    jmp    0x00007f309c42ae8f
+0x00007f309c42ae94:    nop
+0x00007f309c42ae95:    movabs $0x0,%rbx
+0x00007f309c42ae9f:    jmp    0x00007f309c42ae9f
+0x00007f309c42aea4:    movabs $0x0,%rbx
+0x00007f309c42aeae:    jmp    0x00007f309c42aeae
+0x00007f309c42aeb3:    movabs $0x0,%rbx
+0x00007f309c42aebd:    jmp    0x00007f309c42aebd
+0x00007f309c42aec2:    movabs $0x0,%rbx
+0x00007f309c42aecc:    jmp    0x00007f309c42aecc
+0x00007f309c42aed1:    movabs $0x0,%rbx
+0x00007f309c42aedb:    jmp    0x00007f309c42aedb
+0x00007f309c42aee0:    movabs $0x0,%rbx
+0x00007f309c42aeea:    jmp    0x00007f309c42aeea
+0x00007f309c42aeef:    movabs $0x0,%rbx
+0x00007f309c42aef9:    jmp    0x00007f309c42aef9
+0x00007f309c42aefe:    movabs $0x0,%rbx
+0x00007f309c42af08:    jmp    0x00007f309c42af08
+[Exception Handler]
+0x00007f309c42af0d:    call   0x00007f30a3a59a60
+0x00007f309c42af12:    movabs $0x7f30bb6ec728,%rdi
+0x00007f309c42af1c:    and    $0xfffffffffffffff0,%rsp
+0x00007f309c42af20:    call   0x00007f30bb148e40
+0x00007f309c42af25:    hlt
+0x00007f309c42af26:    movabs $0x7f309c42af26,%r10
+0x00007f309c42af30:    push   %r10
+0x00007f309c42af32:    jmp    0x00007f30a3988b60
+0x00007f309c42af37:    hlt

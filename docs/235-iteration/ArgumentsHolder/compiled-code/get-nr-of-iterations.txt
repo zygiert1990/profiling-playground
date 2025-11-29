@@ -1,0 +1,55 @@
+Disassembly for compiled method [private int getNrOfIterations() @0x00007f307c400cb0 ] @0x00007f30a3ecc788
+
+Method
+private int getNrOfIterations() @0x00007f307c400cb0 of final class org.zygiert.Main$ArgumentsHolder @0x0000000029040210
+Compiled Code
+0x00007f30a3ecc880:    data16 data16 nopw 0x0(%rax,%rax,1)
+0x00007f30a3ecc88b:    data16 data16 xchg %ax,%ax
+0x00007f30a3ecc88f:    data16 xchg %ax,%ax
+[Entry Point]
+0x00007f30a3ecc892:    mov    0x8(%rsi),%r10d
+0x00007f30a3ecc896:    cmp    0x8(%rax),%r10d
+0x00007f30a3ecc89a:    jne    0x00007f30a39863e0
+[Verified Entry Point]
+0x00007f30a3ecc8a0:    mov    %eax,-0x14000(%rsp)
+0x00007f30a3ecc8a7:    push   %rbp
+0x00007f30a3ecc8a8:    sub    $0x20,%rsp
+0x00007f30a3ecc8ac:    cmpl   $0x1,0x20(%r15)
+0x00007f30a3ecc8b4:    je     0x00007f30a3ecc8bb
+0x00007f30a3ecc8b6:    call   0x00007f30a396df60
+0x00007f30a3ecc8bb:    mov    0xc(%rsi),%eax
+0x00007f30a3ecc8be:    add    $0x20,%rsp
+0x00007f30a3ecc8c2:    pop    %rbp
+0x00007f30a3ecc8c3:    cmp    0x28(%r15),%rsp
+0x00007f30a3ecc8c7:    ja     0x00007f30a3ecc8ce
+0x00007f30a3ecc8cd:    ret
+0x00007f30a3ecc8ce:    movabs $0x7f30a3ecc8c3,%r10
+0x00007f30a3ecc8d8:    mov    %r10,0x538(%r15)
+0x00007f30a3ecc8df:    jmp    0x00007f30a3988860
+0x00007f30a3ecc8e4:    mov    0x5e0(%r15),%rax
+0x00007f30a3ecc8eb:    movq   $0x0,0x5e0(%r15)
+0x00007f30a3ecc8f6:    movq   $0x0,0x5e8(%r15)
+0x00007f30a3ecc901:    add    $0x20,%rsp
+0x00007f30a3ecc905:    pop    %rbp
+0x00007f30a3ecc906:    jmp    0x00007f30a3a568e0
+0x00007f30a3ecc90b:    hlt
+0x00007f30a3ecc90c:    hlt
+0x00007f30a3ecc90d:    hlt
+0x00007f30a3ecc90e:    hlt
+0x00007f30a3ecc90f:    hlt
+[Exception Handler]
+[Stub Code]
+0x00007f30a3ecc910:    call   0x00007f30a3a59a60
+0x00007f30a3ecc915:    movabs $0x7f30bb6ec728,%rdi
+0x00007f30a3ecc91f:    and    $0xfffffffffffffff0,%rsp
+0x00007f30a3ecc923:    call   0x00007f30bb148e40
+0x00007f30a3ecc928:    hlt
+0x00007f30a3ecc929:    movabs $0x7f30a3ecc929,%r10
+0x00007f30a3ecc933:    push   %r10
+0x00007f30a3ecc935:    jmp    0x00007f30a3988b60
+0x00007f30a3ecc93a:    hlt
+0x00007f30a3ecc93b:    hlt
+0x00007f30a3ecc93c:    hlt
+0x00007f30a3ecc93d:    hlt
+0x00007f30a3ecc93e:    hlt
+0x00007f30a3ecc93f:    hlt

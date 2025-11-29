@@ -1,0 +1,51 @@
+Disassembly for compiled method [private static int resolveNumber(int) @0x00007f307c400698 ] @0x00007f30a3ed2208
+
+Method
+private static int resolveNumber(int) @0x00007f307c400698 of public class org.zygiert.Main @0x0000000029040000
+Compiled Code
+[Entry Point]
+[Verified Entry Point]
+0x00007f30a3ed2300:    mov    %eax,-0x14000(%rsp)
+0x00007f30a3ed2307:    push   %rbp
+0x00007f30a3ed2308:    sub    $0x20,%rsp
+0x00007f30a3ed230c:    cmpl   $0x1,0x20(%r15)
+0x00007f30a3ed2314:    jne    0x00007f30a3ed2362
+0x00007f30a3ed231a:    mov    %esi,%eax
+0x00007f30a3ed231c:    cmp    $0x2710,%esi
+0x00007f30a3ed2322:    jge    0x00007f30a3ed2334
+0x00007f30a3ed2324:    add    $0x20,%rsp
+0x00007f30a3ed2328:    pop    %rbp
+0x00007f30a3ed2329:    cmp    0x28(%r15),%rsp
+0x00007f30a3ed232d:    ja     0x00007f30a3ed234c
+0x00007f30a3ed2333:    ret
+0x00007f30a3ed2334:    mov    $0xffffff45,%esi
+0x00007f30a3ed2339:    mov    %eax,(%rsp)
+0x00007f30a3ed233c:    data16 xchg %ax,%ax
+0x00007f30a3ed233f:    call   0x00007f30a3a5f9e0
+            private static int resolveNumber(int) @0x00007f307c400698 of public class org.zygiert.Main @0x0000000029040000 @ bci = 4, line = 19
+            locals ('i', stack[0], normal)
+            expressions ([0], stack[0], normal) ([1], int 10000)
+
+OopMap:
+
+
+0x00007f30a3ed2344:    nopl   0x13c(%rax,%rax,1)
+0x00007f30a3ed234c:    movabs $0x7f30a3ed2329,%r10
+0x00007f30a3ed2356:    mov    %r10,0x538(%r15)
+0x00007f30a3ed235d:    jmp    0x00007f30a3988860
+0x00007f30a3ed2362:    call   0x00007f30a396df60
+0x00007f30a3ed2367:    jmp    0x00007f30a3ed231a
+0x00007f30a3ed236c:    hlt
+0x00007f30a3ed236d:    hlt
+0x00007f30a3ed236e:    hlt
+0x00007f30a3ed236f:    hlt
+[Exception Handler]
+[Stub Code]
+0x00007f30a3ed2370:    jmp    0x00007f30a3a5fce0
+0x00007f30a3ed2375:    call   0x00007f30a3ed237a
+0x00007f30a3ed237a:    subq   $0x5,(%rsp)
+0x00007f30a3ed237f:    jmp    0x00007f30a3988b60
+0x00007f30a3ed2384:    hlt
+0x00007f30a3ed2385:    hlt
+0x00007f30a3ed2386:    hlt
+0x00007f30a3ed2387:    hlt
