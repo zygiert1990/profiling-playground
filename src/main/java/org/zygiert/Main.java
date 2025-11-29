@@ -27,7 +27,7 @@ public class Main {
         if (i < 20000) {
             return sleepInMillis;
         } else {
-            return sleepInMillis / 10;
+            return sleepInMillis / 100;
         }
     }
 
